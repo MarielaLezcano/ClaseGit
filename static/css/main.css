@@ -1,0 +1,17 @@
+
+.titulo{
+	color:red;
+	background-color: aqua;
+}
+.h1{
+	color: rgb(255,255,255);
+}
+
+.tabla{
+	border-color: blue;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagenes{
+	border-color: blue solid 2px;
+}

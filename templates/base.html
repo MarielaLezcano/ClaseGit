@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INFORMATORIO</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+
+</head>
+<body>
+	<h1 class="titulo">MENU</h1>
+	<img class="imagenes" src="{% static 'img/logo.png' %}" width="150px">
+	<ul>
+		<li><a class="tabla"  href="{% url 'inicio' %}">Home</a></li>
+		<li><a class="tabla" href="{% url 'contacto' %}">Contacto</a></li>
+	</ul>
+
+	{% block contenido %}
+
+	{% endblock contenido %}
+
+</body>
+</html>
